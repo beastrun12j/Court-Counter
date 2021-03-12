@@ -8,6 +8,11 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    /**
+     * override method is used override the default behaviour of AppCompatActivity
+     * @param savedInstanceState
+     */
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Functioning for Reset Button
+     * Functioning for the Reset Button
      */
 
     public void reset(View v)
